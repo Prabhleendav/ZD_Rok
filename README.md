@@ -1,8 +1,4 @@
-# Fashion-Store
 
-https://user-images.githubusercontent.com/30614282/161916675-86fb41ce-75cf-40f2-8c6e-db35ac1f059e.mp4
-
----
 ## Front-end
 - [React](https://es.reactjs.org/) - Front-End JavaScript library
 - [Windi CSS](https://windicss.org/) - Next generation utility-first CSS framework
