@@ -1,32 +1,40 @@
-# 🛍️ ZD ROK - Fashion Store
+# Fashion-Store
 
-ZD ROK is a full-stack fashion e-commerce web application built using React, Vite, and Node.js.  
-It includes a customer-facing storefront, an admin dashboard, and a backend API.
+https://user-images.githubusercontent.com/30614282/161916675-86fb41ce-75cf-40f2-8c6e-db35ac1f059e.mp4
 
 ---
+## Front-end
+- [React](https://es.reactjs.org/) - Front-End JavaScript library
+- [Windi CSS](https://windicss.org/) - Next generation utility-first CSS framework
+- [Feather Icons](https://feathericons.com/) - Simply beautiful open source icons
+- [Vite](https://vitejs.dev/) - Frontend Tooling
 
-## 🚀 Features
+## Back-end 
+- [Node.js](https://nodejs.org/) - JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [Express.js](https://expressjs.com/) - Minimal and flexible Node.js web application framework.
+- [Mongoose](https://mongoosejs.com/) - Elegant mongodb object modeling for node.js 
+- [Stripe](https://stripe.com/docs/js) - Payments infrastructure for the internet
+- [celebrate](https://github.com/arb/celebrate) - A joi validation middleware for Express.
+- [JsonWebToken](https://github.com/auth0/node-jsonwebtoken) - An implementation of JSON Web Tokens for Node.js
 
-### 👤 Customer Side (Client)
-- Browse products
-- View product details
-- Add to cart
-- Update cart quantity
-- Checkout functionality
-- Category filtering
-- Responsive design
+## Database
+- [Monogodb](https://www.mongodb.com/) - Cross-platform document-oriented NoSQL database.
 
-### 🛠️ Admin Panel
-- Manage products
-- Manage orders
-- Manage categories
-- View user data
+---
+## Run yourself
+> Make sure you have [mongodb](https://www.mongodb.com/try/download/community) & [nodejs](https://nodejs.org/) installed on your system before proceeding.
 
-### 🔙 Backend API
-- REST API with Express
-- Product routes
-- Order routes
-- Middleware support
-- Modular structure
-
-
+1. Clone this repo
+```bash
+git clone https://github.com/nimone/Fashion-Store && cd Fashion-Store
+```
+2. Install project dependecies
+```bash
+cd ./api && npm install
+cd ./client && npm install
+```
+3. Start development servers (api & client) with the provided script `rundev.sh`
+```bash
+bash rundev.sh
+```
+> Or, start them manually by `npm run dev`
